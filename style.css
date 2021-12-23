@@ -9,14 +9,21 @@
   src: url("./fonts/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
 
 }
+@font-face {
+  font-family: "Logo";
+  src: url("./fonts/simsunb.ttf") format('truetype');
+
+}
+
 
 /* Header and Footer:  */
 header {
+    ; background-image:  url(bg2.png);
     background-color: AliceBlue;
-    padding: 01px;
-    font-family: "Cutesy";
+    font-family: "Basic";
     text-align: left;
     color: black;
+    opacity: 0.7;
 
 
 
@@ -38,20 +45,23 @@ padding: 0px;
 
 }
 
-
 /* Body:  */
 leftside{
-background-color: AliceBlue;
+background-color: White;
+font-family: "Logo";
 border-color: black;
 border-size: 10px;
 float: left;
 
 }
 center{
-background-color: white;
+background-color: black;
+font-family: "Logo";
+opacity: : 0.2;
 border-color: black;
 border-size: 10px;
 float: center;
+color: white;
 
 }
 rightside{
@@ -64,26 +74,27 @@ float: right;
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display:block;
 }
 
 .menubutton {
-  font-family: "Cutesy";
+  text-decoration:  None;
   font-size: 20px;
   position: relative;
-  display: inline-block;
+  display: block;
   background-color: Black;
+  opacity: 1;
   border-color: none;
-  color: white;
+  color: #00ccff;
   padding: 10px;
   box-shadow: none;
   border: none;
 }
 .menubutton:hover{
   position: relative;
-  display: inline-block;
-  background-color: AliceBlue;
-  color: Black;
+  opacity: .5;
+  display: sblock;
+  color: white;
   padding: 10px;
   border-color: None;
 
@@ -91,7 +102,7 @@ float: right;
 
 .menudropdown-content {
   display: None;
-  position: absolute;
+  position: relative;
   background-color: #f1f1f1;
   min-width: 200px;
    padding: 12px 16px;
