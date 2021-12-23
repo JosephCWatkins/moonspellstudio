@@ -1,1 +1,140 @@
+/* Importing Fonts:  */
+@font-face {
+  font-family: "Basic";
+  src: url("./fonts/Basic-Regular.ttf") format('truetype');
+}
 
+@font-face {
+  font-family: "Cutesy";
+  src: url("./fonts/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
+
+}
+
+/* Header and Footer:  */
+header {
+    background-color: AliceBlue;
+    padding: 01px;
+    font-family: "Cutesy";
+    text-align: left;
+    color: black;
+
+
+
+}
+
+footer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+section{
+background-color: black;
+border-color: black;
+/* border-size: 10px;  */
+padding: 0px;
+
+
+}
+
+
+/* Body:  */
+leftside{
+background-color: AliceBlue;
+border-color: black;
+border-size: 10px;
+float: left;
+
+}
+center{
+background-color: white;
+border-color: black;
+border-size: 10px;
+float: center;
+
+}
+rightside{
+background-color: AliceBlue;
+border-color: black;
+border-size: 10px;
+float: right;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menubutton {
+  font-family: "Cutesy";
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  background-color: Black;
+  border-color: none;
+  color: white;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+}
+.menubutton:hover{
+  position: relative;
+  display: inline-block;
+  background-color: AliceBlue;
+  color: Black;
+  padding: 10px;
+  border-color: None;
+
+}
+
+.menudropdown-content {
+  display: None;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+   padding: 12px 16px;
+  z-index: 1;
+}
+
+
+
+.dropdown:hover .menudropdown-content
+{
+  display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+</
+
+/* Navigation:  */
+nav {
+  font-family: "Basic";
+  float: left;
+  width: 20%;
+  border-width: 10px;
+  border-color: black;
+  height: 300px; /* only for demonstration, should be removed */
+  background: AliceBlue;
+  padding: 10px;
+  list-style-type: none;
+  text-align: left;
+}
+
+
+body {
+    font-weight: normal;
+    font-style: normal;
+    float: center;
+    font-family: Cutesy;
+}
