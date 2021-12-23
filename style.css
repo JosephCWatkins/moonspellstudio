@@ -1,17 +1,17 @@
 /* Importing Fonts:  */
 @font-face {
   font-family: "Basic";
-  src: url("./fonts/Basic-Regular.ttf") format('truetype');
+  src: url("/Basic-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Cutesy";
-  src: url("./fonts/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
+  src: url("/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
 
 }
 @font-face {
   font-family: "Logo";
-  src: url("./fonts/simsunb.ttf") format('truetype');
+  src: url("/simsunb.ttf") format('truetype');
 
 }
 
