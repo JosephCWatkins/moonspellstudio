@@ -126,21 +126,21 @@ float: right;
 
 
 
-</
+/* </ */
 
 /* Navigation:  */
-nav {
+/* nav {
   font-family: "Basic";
   float: left;
   width: 20%;
   border-width: 10px;
   border-color: black;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 300px;  only for demonstration, should be removed 
   background: AliceBlue;
   padding: 10px;
   list-style-type: none;
   text-align: left;
-}
+} */
 
 
 body {
