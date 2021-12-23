@@ -1,24 +1,24 @@
 /* Importing Fonts:  */
 @font-face {
   font-family: "Basic";
-  src: url("/Basic-Regular.ttf") format('truetype');
+  src: url("./fonts/Basic-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Cutesy";
-  src: url("/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
+  src: url("./fonts/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
 
 }
 @font-face {
   font-family: "Logo";
-  src: url("/simsunb.ttf") format('truetype');
+  src: url("./fonts/simsunb.ttf") format('truetype');
 
 }
 
 
 /* Header and Footer:  */
 header {
-/*     background-image: src("bg2.png");  */
+    background-image:  url("bg2.png");
     background-color: AliceBlue;
     font-family: "Basic";
     text-align: left;
@@ -126,21 +126,21 @@ float: right;
 
 
 
-/* </ */
+</
 
 /* Navigation:  */
-/* nav {
+nav {
   font-family: "Basic";
   float: left;
   width: 20%;
   border-width: 10px;
   border-color: black;
-  height: 300px;  only for demonstration, should be removed 
+  height: 300px; /* only for demonstration, should be removed */
   background: AliceBlue;
   padding: 10px;
   list-style-type: none;
   text-align: left;
-} */
+}
 
 
 body {
