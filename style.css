@@ -1,17 +1,25 @@
 /* Importing Fonts:  */
 @font-face {
   font-family: "Basic";
-  src: url("../Basic-Regular.ttf") format('truetype');
+  src: url("./fonts/Basic-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Cutesy";
-  src: url("../LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
+  src: url("./fonts/LxgwWenKaiMonoLatin-Light.ttf") format('truetype');
 
 }
 @font-face {
   font-family: "Logo";
-  src: url("../simsunb.ttf") format('truetype');
+  src: url("./fonts/simsunb.ttf") format('truetype');
+
+}
+
+.centerwebsite{
+  margin: auto;
+  width: 49%;
+  background-image:  url("bg2.png");
+  opacity: .8;
 
 }
 
@@ -20,12 +28,20 @@
 header {
     background-image:  url("bg2.png");
     background-color: AliceBlue;
-    font-family: "Basic";
-    text-align: left;
+    font-family: "Logo";
+    text-align: center;
     color: black;
-    opacity: 0.7;
+    /* opacity: 0.7; */
+    /* padding-bottom: 10px;  */
 
 
+
+}
+
+.menubaralign{
+  float: left;
+  text-align: left;
+  align-content: right;
 
 }
 
@@ -37,10 +53,8 @@ footer {
 }
 
 section{
-background-color: white;
-border-color: black;
-/* border-size: 10px;  */
-padding: 0px;
+    background-image:  url("bg2.png");
+opacity: 0.7;
 
 
 }
@@ -50,6 +64,7 @@ leftside{
 background-color: White;
 font-family: "Logo";
 border-color: black;
+background-image:  url("bg2.png");
 border-size: 10px;
 float: left;
 
@@ -57,7 +72,7 @@ float: left;
 center{
 background-color: black;
 font-family: "Logo";
-opacity: : 0.2;
+opacity: : 1;
 border-color: black;
 border-size: 10px;
 float: center;
@@ -79,13 +94,15 @@ float: right;
 
 .menubutton {
   text-decoration:  None;
+  /* font-family: "Basic"; */
   font-size: 20px;
   position: relative;
   display: block;
-  background-color: Black;
+  /* background-color: Black; */
   opacity: 1;
   border-color: none;
-  color: #00ccff;
+  color: white;
+  /* color: #00ccff; */
   padding: 10px;
   box-shadow: none;
   border: none;
@@ -94,7 +111,7 @@ float: right;
   position: relative;
   opacity: .5;
   display: sblock;
-  color: white;
+  color: #00ccff;;
   padding: 10px;
   border-color: None;
 
@@ -103,17 +120,27 @@ float: right;
 .menudropdown-content {
   display: None;
   position: relative;
-  background-color: #f1f1f1;
+  background-color: black;
   min-width: 200px;
    padding: 12px 16px;
   z-index: 1;
+  text-decoration:  "none";
 }
 
 
 
 .dropdown:hover .menudropdown-content
 {
-  display: block;
+  display: inline-block;
+
+}
+
+
+.teamtable{
+  border-width: 5px;
+  border-color: white;
+
+
 
 }
 
@@ -128,24 +155,13 @@ float: right;
 
 </
 
-/* Navigation:  */
-nav {
-  font-family: "Basic";
-  float: left;
-  width: 20%;
-  border-width: 10px;
-  border-color: black;
-  height: 300px; /* only for demonstration, should be removed */
-  background: AliceBlue;
-  padding: 10px;
-  list-style-type: none;
-  text-align: left;
-}
 
 
 body {
+  background-color: 0;
     font-weight: normal;
     font-style: normal;
     float: center;
+    /* opacity: 7; */
     font-family: Cutesy;
 }
