@@ -137,14 +137,21 @@ float: right;
 
 
 .teamtable{
-  border-width: 5px;
+  border-width: 0px;
   border-color: white;
+  border: 1px solid white;
+  width: 70%;
+  align: left;
 
 
 
 }
 
+.p1{
+  text-align: left;
+  margin-left: 40px;
 
+}
 
 
 
